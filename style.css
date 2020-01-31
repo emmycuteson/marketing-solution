@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,600,700,800,900|Roboto:400,700,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+}
+header{
+    font-family: 'Nunito', sans-serif;
+    padding: 5px 100px;
+    background-color: #fff;
+    height:65px;
+    width:100%;
+    position: fixed;
+    border-bottom: 1px solid rgba(211,211,211, 0.4);
+}
+header .logo{
+    float:left
+}
+header .logo h1{
+    font-weight:800;
+    margin-top:5px;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+}
+nav ul li a{
+    color:#B5BDCD;
+    text-decoration: none;
+
+} 
+nav ul li a:hover{
+    color:#151965;
+}
+nav ul li a button{
+    padding:5px;
+    border:none;
+    background-color:#151965;
+    color:#fff;
+    height:35px;
+    width:150px;
+    cursor: pointer;
+    border-radius:5px;
+    font-family: 'Nunito', sans-serif;
+}
+nav ul li a button:hover{
+    background-color:#111451;
+}
+.page1{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    height: 600px;
+    background-color: #fafafa;
+}
+.page1a{
+    width: 40%;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    margin: 70px 50px;
+    padding: 30px;
+    float: left;
+}
+.page1a h1{
+    font-size:40px;
+}
+.page1a p{
+    color: #707F95;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.page1a a button{
+    padding:5px;
+    border:none;
+    background-color:#151965;
+    color:#fff;
+    height:45px;
+    width:150px;
+    cursor: pointer;
+    border-radius:5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+.page1a a button:hover{
+    background-color: #111451;   
+}
+.page1b{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin: 60px 30px;
+    padding: 10;
+}
+.page1b img{
+    width: 550px;
+    height: 364px;
+}
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+.about-content{
+    width: 100%;
+    height: 200px;
+    margin:20px 0px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+.about-content h1{
+    font-size:35px;
+    color: #0F0F1A;
+}
+.about-content p{
+    color:  #707F95;
+}
+.page2b{
+    margin: 10px 50px;
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+.card{
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    width: 27%;
+    height: 300px;
+    transition: .2s ease-in;
+    box-shadow: 0 0 15px rgba(211,211,211,0.5);
+}
+.card:hover{
+    box-shadow: 0 0 15px rgba(211,211,211,0.9);
+}
+.card h1{
+    color: #0F0F1A;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 5px;
+}
+.card p{
+    color: #6C7989;
+    font-size:15px;
+    margin-top: 0;
+    line-height: 1.7em;
+}
+.page3{
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+    padding: 70px;
+}
+.page3a{
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+.page3b{
+    float: left;
+    margin: 40px;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.page3b h1{
+    color: #0F0F1A;
+}
+.page3b p{
+    color: #6C7989;
+}
+.page3b a{
+    color: #FF8556;
+    text-decoration: none;
+}
+.page3b a:hover{
+    color: #6C7989;
+    text-decoration: underline;
+}
+.market{
+    width: 100%;
+    height: 900px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fafafa;
+}
+.market .market_solution{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+.market .market_solution h1{
+    color: #0F0F1A;
+}
+.market .market_solution p{
+    color: #6C7989;
+}
+.carton_carrier{
+    margin: 0 90px;
+}
+.carton{
+    width: 45%;
+    height: 150px;
+    background-color: #fff;
+    float: left;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    transition: .2s ease-in;
+    box-shadow: 0 0 15px rgba(211,211,211,0.5);
+}
+.carton i{
+    float:left;
+    padding:20px;
+    border-radius: 100%;
+    box-shadow:0 0 10px rgba(211,211,211,0.5); 
+    font-size:50px;
+    color:#151965;
+    margin-top: 10px;
+    height:100px;
+}
+.carton-text{
+    width:74%;
+    float:right;
+}
+.carton:hover{
+    box-shadow: 0 0 15px rgba(211,211,211,0.9);
+}
+.carton h2{
+    color:#0F0F1A;
+    font-weight: 700;
+ 
+}
+.carton h2:hover{
+    color: #FF8556;
+}
+.carton-text p{
+    color: #6C7989;
+    font-size: 15px;
+    margin-top: 0px;
+}
+/* .fas-graduation-cap{
+    width: 51px;
+    height: 40px;
+    border-radius: 100%;
+} */
+.App{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding:0 100px;
+    margin:50px 0;
+}
+.App_text{
+    width: 43%;
+    height: 400px;
+    float: left;
+}
+.App_image{
+    width: 42%;
+    float: right;
+}
+.App_image img{
+    width: 580px;
+    height: 395px;
+}
+.App_text h1{
+    color:#0F0F1A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.App_text p{
+    color: #6C7989;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+.App_text a{
+    color: #FF8556;
+    text-decoration: none;
+    font-size: 18px;
+}
+.App_text a:hover{
+    color: #6C7989;
+    text-decoration: underline;
+}
+.word_love{
+    width: 100%;
+    height: 500px;
+}
+.word_love h2{
+    color:#0F0F1A;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.love{
+    width: 65%;
+    height: 350px;
+    font-family: 'Nunito', sans-serif;
+    color: #0F0F1A;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(211,211,211,0.5);
+}
+.love img{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 100%;
+}
+.love p{
+    font-weight: 500;
+}
+.love h5{
+    color: #6C757D;
+    font-style: italic;
+}
+.companies{
+    width: 100%;
+    height: 300px;
+    background-color: #FAFAFA;
+}
+.companies h1{
+    color: #0F0F1A;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.updated{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+.updated h1{
+    font-family: 'Roboto', sans-serif;
+    color: #0F0F1A
+}
+.updated p{
+    font-family: 'Nunito', sans-serif;
+    color: #6C757D;    
+}
+.updated form{
+    padding-top: 20px;
+}
+.updated form input{
+    border: .2px solid #151965;
+    font-size: 15px;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+}
+.updated form a button{
+    height: 52px;
+    width: 150px;
+    background-color: #151965;
+    color: #fff;
+    border: none;
+}
+.start{
+    height:600px;
+    width:100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding:90px 0 0 100px;
+    background-image:linear-gradient(rgba(21,25,101,0.5),rgba(21,25,101,0.5)),url(images/market.jpg);
+}
+.start .start_text{
+    width:30%;
+    color:#fff;
+    font-family: 'Nunito', sans-serif;
+}
+.start .start_text a button{
+    width:40%;
+    border-radius: 5px;
+    border:1px solid #fff;
+    padding:5px;
+    height:45px;
+    color:#fff;
+    transition: 0.2s ease-in;
+    font-size:16px;
+    background:transparent;
+}
+.start .start_text a button:hover{
+    background-color: rgb(21,25,101);
+    border:none;
+}
+.ready{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.ready h1{
+    color: #0F0F1A;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.ready a button{
+    height:50px;
+    width:150px;
+    margin: 0 10px;
+}
+.infos{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    background-color: #F7F9FD;
+    border: 1px solid red;
+}
+.infos .contact{
+    width: 30%;
+    height: 300px;
+    border: 1px solid red;
+}
+.infos .others{
+    width: 40%;
+    height: 300px;
+    float: right;
+    border: 1px solid red;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #F1F4F9;
+    margin: 0 0 25px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.footer p{
+    color: #6C757D;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer p a{
+    color: #FF8556;
+    text-decoration: none;
+}
+.footer p a:hover{
+    text-decoration: underline;
+    color: rgb(255, 100, 44)
+}
